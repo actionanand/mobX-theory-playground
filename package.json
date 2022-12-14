@@ -1,0 +1,21 @@
+{
+  "name": "mobX-theory-playground",
+  "version": "1.0.0",
+  "description": "It's a playground to know how 'mobX' works",
+  "main": "index.js",
+  "author": "Anand Raja",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "yarn build",
+    "js:1": "node ./build/observer-pattern.js",
+    "js:2": "node ./build/javascript-proxy.js"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.15"
+  }
+}
